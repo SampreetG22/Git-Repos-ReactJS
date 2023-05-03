@@ -1,0 +1,40 @@
+.listEl {
+  list-style-type: none;
+  padding: 0px;
+}
+.highlighted {
+  border: 2px solid #0284c7;
+  background-color: transparent;
+  border-radius: 15px;
+  width: max-content;
+  padding: 10px;
+  cursor: pointer;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #0284c7;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.normal {
+  border: none;
+  background-color: transparent;
+  width: max-content;
+  padding: 10px;
+  cursor: pointer;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
